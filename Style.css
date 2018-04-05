@@ -1,0 +1,57 @@
+@font-face {
+  font-family: tb;
+  src: url('Fonts/tb.otf');
+}
+
+
+body{
+  background-image:url('img/bg44.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: tb;
+}
+h1{
+  color: #EEE8AA;
+  text-align: center;
+  font-size: 74px;
+  letter-spacing: 10px;
+}
+h2{
+  color: #EEE8AA;
+  text-align: center;
+  font-size: 74px;
+  letter-spacing: 10px;
+}
+#del-countdown{
+  width: 850px;
+  margin: 5% auto;
+}
+#clock span{
+  float: left;
+  text-align: center;
+  font-size: 84px;
+  margin: 0 2.5%;
+  color: #EEE8AA;
+  padding: 20px;
+  width: 20%;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+#clock:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+#units span{
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 30px;
+  color: #EEE8AA;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+  -webkit-text-stroke-width: 1px;
+}
